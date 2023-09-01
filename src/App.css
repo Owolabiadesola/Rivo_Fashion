@@ -1,38 +1,205 @@
-.App {
+.navbar {
+  background-color: #c2efd4;
+}
+#navB {
+}
+li {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 0rem 0 3rem;
+}
+#navbarNav {
+  margin-left: 13rem;
+  text-transform: uppercase;
+  color: #267144;
+}
+#navbtn {
+  border: solid 1px #267144;
+  width: 6rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  color: #267144;
+}
+#navbag {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.homepage {
+  background-color: #c2efd4;
+  padding: 3rem 5rem 0 5rem;
+}
+.hpheader {
+  color: #267144;
+  font-weight: 600;
+  line-height: 4rem;
+  font-size: 4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.hmpbtn {
+  background-color: #224f34;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 6px 30px;
+  font-size: 12px;
+  border: none;
+}
+.hmp {
+  color: #267d49;
+  font-size: 28px;
+}
+/* #hmpimg {
+  width: 17rem;
+  height: 25rem;
+} */
+.bsword {
+  text-align: center;
+  color: #224f34;
+}
+.bs1 {
+  background-color: #93b9a2;
+}
+.bs2 {
+  background-color: #a9d4ba;
+}
+.bs3 {
+  background-color: #cadcd0;
+}
+
+.bsp {
+  font-size: 15px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bsbtn {
+  border: #224f34 1px solid;
+  padding: 0 20px 0 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.optxt {
+  color: #267144;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hot {
+  color: #267144;
+  text-decoration: underline;
+}
+.line {
+  margin-top: 5px;
+}
+.oplist {
+  display: inline-flex;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1rem;
+}
+.opimg2 {
+  background-color: #eaebf0;
+}
+.pic8 {
+  background-color: #cadcd0;
+}
+.exoffer {
+  background-color: #c2efd4;
+}
+.days {
+  width: 3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  font-weight: 700;
+}
+.exspan {
+  display: inline-flex;
+  color: #267144;
+}
+.eximg {
+  width: 25rem;
+  height: 20rem;
+}
+.exbtn {
+  background-color: #224f34;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 2rem;
+}
+.extxt {
+  font-size: 20px;
+  color: #267144;
+}
+.exheader {
+  color: #224f34;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.dandfheader {
+  color: #224f34;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.dandftxt {
+  color: #267144;
+  text-align: center;
+}
+.dandfimg {
+  background-color: #d3e2d7;
+}
+.dandfcolheader {
+  text-align: center;
+  margin-top: 5px;
+}
+.dandfcolp {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 3px;
+}
+.footer {
+  background-color: #224f34;
+}
+.footerheader {
+  color: #a9d4ba;
+  margin-top: 1rem;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 0 10px;
+  text-align: center;
+}
+.footertxt {
+  color: #cadcd0;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 10px;
+  text-align: center;
+}
+.footermain {
+  color: #93b9a2;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.footerinput {
+  background-color: #224f34;
+  border: #a3f3be solid 1px;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footerheader3 {
+  color: #a9d4ba;
+  margin-top: 1rem;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 0 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footerbtn {
+  background-color: #a3f3be;
+  border: none;
+  padding: 2px 10px;
+  font-weight: 500;
+}
+.footersp {
+  display: inline-flex;
+  color: #cadcd0;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5rem;
 }
